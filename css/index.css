@@ -26,7 +26,7 @@ header
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin-top: 80px;
+    margin-top: 42px;
 }
 .nav-button
 {
@@ -90,7 +90,7 @@ nav
 {
     padding: 8px;
     border-radius: 50px;
-    background-color: rgba(199, 230, 240, 0.952);
+    background-color: #DEEBFF;
     color: #0065FC;
 }
 
@@ -107,7 +107,7 @@ nav
 }
 .button-filtres:hover
 {
-    background-color: rgba(199, 230, 240, 0.952);
+    background-color: #DEEBFF;
 }
 .button
 {
