@@ -100,13 +100,14 @@ nav
     flex-direction: row;
     align-items: center;
 }
+
 .button-filtres:not(:active)
 {
    background-color: white; 
 }
-.button-filtres:active
+.button-filtres:hover
 {
-    background-color: #0065FC;
+    background-color: rgba(199, 230, 240, 0.952);
 }
 .button
 {
