@@ -1,0 +1,313 @@
+@media screen and (max-width: 768px)
+{
+    @font-face
+    {
+        font-family: 'Raleway';
+        src: url(Raleway-VariableFont_wght.ttf);
+    }
+    @font-face
+    {
+        font-family: 'Raleway';
+        src: url(Raleway-Italic-VariableFont_wght.ttf);
+        font-style: italic;
+    }
+    body
+    {
+        width: 100%;
+    }
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    nav
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+    }
+    .nav-button
+    {
+        margin-top: 25px;
+        border-bottom: 2px solid rgb(212, 214, 212);
+        padding-bottom: 20px;
+        width: 50%;
+        text-align: center;
+
+    }
+    .nav-button:hover
+    {
+        border-top: none;
+        padding-top: 20px;
+        border-bottom: 2px solid #0065FC;
+    }
+    #recherche > span 
+    {
+        display: none;
+    }
+    #recherche 
+    {
+        width: auto;
+        padding: 10px;
+    }
+    #recherche
+    {
+        width: auto;
+    }
+    .entete
+    {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .entete > p 
+    {
+        flex-direction: row;
+        align-items: center;
+        font-size: 75%;
+    }
+    #i
+    {
+        margin-right: 10px;
+    }
+    .filtres
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .button 
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .button-filtres
+    {
+        height: 35px;
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+    .filtre 
+    {
+        padding: 11px;
+
+    }
+    
+    #hebergement
+    {
+        width: auto;
+        background-color: white;
+    }
+    .hotes > figure a img
+    {
+        width: 295px;
+        height: 125px;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .hotes
+    {
+        width: auto;
+        justify-content: flex-start;
+    }
+    .hotes > figure 
+    {
+        margin-left: 40px;
+    }
+    .hotes-container
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mer
+    {
+        height: 125px;
+        width: 295px;
+    }
+    #amina
+    {
+        height: 125px;
+        width: 295px;
+    }
+    .hotes > figure figcaption 
+    {
+        font-size: 80%;
+    }
+
+    /* PARTIE ASIDE */
+
+
+    aside
+    {
+        background-color: #F2F2F2;
+        max-width: 100%;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding-bottom: 10px;
+    }
+    .populaire-cards > figure figcaption 
+    {
+        height: 140px;
+    }
+    .populaire 
+    {
+        align-items: stretch;
+    }
+    .container-hebergement-populaire
+    {
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    .populaire-cards > figure a img
+    {
+        max-width: 130px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .populaire-cards > figure 
+    {
+        height: 140px;
+    }
+    #hotel-bleu-blanc
+    {
+        height: 140px;
+        width: 130px;
+    }
+    .populaire-cards > figure figcaption
+    {
+        font-size: 70%;
+    }
+    .img-link
+    {
+        height: 140px;
+    }
+
+    /* PARTIE ACTIVITES */
+
+
+    .card-big
+    {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 35px;
+        margin-right: 0px;
+        width: 310px;
+        height: 225px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-big > figure img
+    {
+        width: 310px;
+        height: 185px; 
+        border-radius: 20px 20px 0px 0px;
+    }
+    .card-big > figure figcaption 
+    {
+        font-size: 80%;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    .card-big > figure 
+    {
+        height: 225px;
+        width: 310px;
+    }
+    .card-small
+    {
+        width: 310px;
+        height: 225px;
+        margin-top: 30px;
+        margin-left: 35px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-small > figure img 
+    {
+        width: 310px;
+        height: 185px; 
+        border-radius: 20px 20px 0px 0px;
+    }
+    .card-small > figure figcaption 
+    {
+        font-size: 80%;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+    .card-small > figure 
+    {
+        height: 225px;
+        width: 350px;
+    }
+    .cards-activites
+    {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .activite-title
+    {
+        margin-left: 35px;
+        font-size: 130%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .activites-columns
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    .activites-columns2
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    #frioul
+    {
+        width: 310px;
+        height: 185px;
+        
+    }
+    #fort
+    {
+        width: 310px;
+        height: 185px
+    }
+
+    /* PARTIE FOOTER */
+
+
+    footer 
+    {
+        flex-direction: column;
+        padding-left: 35px;
+        font-size: 100%;
+    }
+    .a-propos
+    {
+        margin: 0px;
+        padding-top: 20px;
+    }
+    .nos-hebergements
+    {
+        margin: 0px;
+        padding-top: 20px;
+    }
+    .assistance
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
