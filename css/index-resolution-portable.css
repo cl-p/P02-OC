@@ -241,7 +241,7 @@
         flex-direction: column;
         justify-content: center;
         flex-wrap: nowrap;
-        align-items: flex-start;
+        align-items: center;
         width: 100%;
     }
     .activite-title
