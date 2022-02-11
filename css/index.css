@@ -1,14 +1,4 @@
-@font-face
-{
-    font-family: 'Raleway';
-    src: url(fonts/Raleway-VariableFont_wght.ttf);
-}
-@font-face
-{
-    font-family: 'Raleway';
-    src: url(fonts/Raleway-Italic-VariableFont_wght.ttf);
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
 
 body
 {
@@ -182,7 +172,7 @@ nav
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.hotes > figure a img
+.hotes > a figure img
 {
     max-width: 320px;
     height: 230px;
@@ -211,14 +201,14 @@ nav
     border-radius: 20px;
     width: 75%;
 }
-.hotes > figure
+.hotes > a figure
 {
     background-color: white;
     border-radius: 20px;
     padding: 5px;
     box-shadow: 4px 2px 20px #00000042;
 }
-.hotes > figure figcaption a h4
+.hotes > a figure figcaption  h4
 {
     margin-bottom: 8px;
     margin-top: 5px;
@@ -270,7 +260,7 @@ aside
     margin-bottom: -10px;
 }
 
-.populaire-cards > figure
+.populaire-cards > a figure
 {
     background-color: white;
     display: flex;
@@ -285,7 +275,7 @@ aside
     align-content: flex-start;
     flex-direction: column;
 }
-.populaire-cards > figure a img
+.populaire-cards > a figure img
 {
     max-width: 250px;
     height: 205px;
@@ -301,7 +291,7 @@ aside
     height: 205px;
     width: 250px;
 }
-.populaire-cards > figure figcaption
+.populaire-cards > a figure figcaption
 {
     margin-left: 15px;
     height: 205px;
@@ -313,7 +303,7 @@ aside
     flex-direction: row;
     /* width: 1710px; */
 }
-aside > .populaire .populaire-cards figure figcaption p
+aside > .populaire .populaire-cards a figure figcaption p
 {
     font-weight: normal;
     margin-top: 10px;
