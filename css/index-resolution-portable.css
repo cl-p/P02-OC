@@ -90,7 +90,7 @@
         width: auto;
         background-color: white;
     }
-    .hotes > figure a img
+    .hotes > a .hote-img img 
     {
         width: 295px;
         height: 125px;
@@ -123,10 +123,10 @@
         height: 125px;
         width: 295px;
     }
-    .hotes > figure figcaption 
+    /* .hotes > figure figcaption 
     {
         font-size: 80%;
-    }
+    } */
 
     /* PARTIE ASIDE */
 
@@ -139,7 +139,7 @@
         margin-left: 0px;
         padding-bottom: 10px;
     }
-    .populaire-cards > figure figcaption 
+    .populaire-cards > .img-link .figure-img .populaire-card-text
     {
         height: 140px;
     }
@@ -152,86 +152,65 @@
         flex-direction: column-reverse;
         width: auto;
     }
-    .populaire-cards > figure a img
+    .populaire-cards > a img
     {
         max-width: 130px;
-        height: 140px;
+        height: 148px;
         object-fit: cover;
         border-radius: 20px 0px 0px 20px;
     }
-    .populaire-cards > figure 
-    {
-        height: 140px;
-    }
-    #hotel-bleu-blanc
-    {
-        height: 140px;
-        width: 130px;
-    }
-    .populaire-cards > figure figcaption
-    {
-        font-size: 70%;
-    }
-    .img-link
-    {
-        height: 140px;
-    }
 
     /* PARTIE ACTIVITES */
-
-
-    .card-big
+    
+    .card-big-activites
     {
+        height: 210px;
+        width: 310px;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         margin-left: 35px;
         margin-right: 0px;
-        width: 310px;
-        height: 225px;
-        align-items: center;
-        justify-content: center;
     }
-    .card-big > figure img
+    .card-big-img
     {
         width: 310px;
         height: 185px; 
         border-radius: 20px 20px 0px 0px;
     }
-    .card-big > figure figcaption 
+    .card-big-img img 
+    {
+        height: 260px;
+    }
+    .card-img-legend
     {
         font-size: 80%;
         padding-left: 15px;
         padding-top: 5px;
     }
-    .card-big > figure 
+    .card-big 
     {
         height: 225px;
         width: 310px;
     }
-    .card-small
+    .card-small-activites
     {
         width: 310px;
-        height: 225px;
-        margin-top: 30px;
+        height: 210px;
+        margin-top: 35px;
         margin-left: 35px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         margin-right: 0px;
         align-items: center;
         justify-content: center;
     }
-    .card-small > figure img 
+    .card-small-img 
     {
         width: 310px;
         height: 185px; 
         border-radius: 20px 20px 0px 0px;
     }
-    .card-small > figure figcaption 
-    {
-        font-size: 80%;
-        padding-left: 15px;
-        padding-top: 5px;
-    }
-    .card-small > figure 
+
+    .card-small 
     {
         height: 225px;
         width: 350px;
@@ -257,23 +236,7 @@
         margin-bottom: 0px;
         margin-left: 0px;
     }
-    .activites-columns2
-    {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-    #frioul
-    {
-        width: 310px;
-        height: 185px;
-        
-    }
-    #fort
-    {
-        width: 310px;
-        height: 185px
-    }
+    
 
     /* PARTIE FOOTER */
 
@@ -288,15 +251,18 @@
     {
         margin: 0px;
         padding-top: 20px;
+        padding-left: 30px;
     }
     .nos-hebergements
     {
         margin: 0px;
         padding-top: 20px;
+        padding-left: 30px;
     }
     .assistance
     {
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left: 30px;
     }
 }
