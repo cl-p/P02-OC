@@ -61,8 +61,8 @@ nav
 {
     header, main 
     {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 60px;
+        padding-right: 100px;
     }
     #recherche > i 
     {
@@ -171,18 +171,29 @@ nav
 {
     padding-top: 5px;
     padding-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 70%;
 }
 .hotes > a .hote-img
 {
-    max-height: 130px;
+    max-height: 170px;
     overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+
 }
 .hotes > a .hote-img img
 {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
+    
+}
+.legend-hote
+{
+    font-weight: lighter;
 }
 .hotes-container
 {
@@ -192,6 +203,8 @@ nav
     justify-content: space-around;
     align-items: flex-start;
     gap: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
 }
 .hotes
 {
@@ -203,12 +216,6 @@ nav
 {
     padding-left: 15px;
 }
-#hebergement
-{
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    width: 75%;
-}
 .hotes > a
 {
     background-color: white;
@@ -218,8 +225,8 @@ nav
 }
 .hotes > a .legende-img  h4
 {
-    margin-bottom: 8px;
-    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 8px;
 }
 
 .afficher-plus
@@ -231,6 +238,8 @@ nav
 .star
 {
     color: #0065FC;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .empty-star
 {
@@ -243,7 +252,7 @@ nav
 aside
 {
     background-color: #F2F2F2;
-    max-width: 30%;
+    max-width: 35%;
     border-radius: 20px;
     margin-left: 40px;
 }
@@ -277,9 +286,8 @@ aside
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px;
+    padding: 8px;
     width: 60%;
-    overflow: scroll;
     text-overflow: ellipsis;
 }
 
@@ -318,6 +326,10 @@ aside > .populaire .populaire-cards a figure figcaption p
     margin-top: 10px;
     margin-left: 5px;
 }
+.legend-populaire
+{
+    font-weight: lighter;
+}
 
 /* Gestion cartes "Activités" */
 .activite-title
@@ -332,28 +344,40 @@ aside > .populaire .populaire-cards a figure figcaption p
     border-radius: 20px;
     box-shadow: 4px 2px 20px #00000042;
     width: 25%;
+    padding-bottom: 6px;
 }
 .card-big-img
 {
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .card-big-img img
 {
     max-height: 100%;
     width: auto;
 }
+.card-img-legend
+{
+    font-weight: bolder;
+    padding-left: 20px;
+}
 .card-small
 {
     max-height: 50%;
     border-radius: 20px;
     box-shadow: 4px 2px 20px #00000042;
+    padding-bottom: 6px;
 }
 .card-small-img
 {
     max-height: 220px;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+
 }
 .card-small-img img
 {
@@ -369,6 +393,7 @@ aside > .populaire .populaire-cards a figure figcaption p
     margin-bottom: 40px;
     justify-content: center;
 }
+
 
 a
 {
